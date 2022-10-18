@@ -1,0 +1,29 @@
+
+* {
+border: 1px dotted red;
+}
+
+body {
+    height: 100vh;
+    margin: 0%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 98vh;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 1rem 3rem 0.5rem;
+}
