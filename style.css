@@ -16,7 +16,7 @@ body {
 .left-container {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     height: 100vh;
 
 }
@@ -24,14 +24,17 @@ body {
 .right-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 55%;
     padding: 1rem 3rem 0.5rem;
 }
 
 .logoText {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: bold;
     opacity: 1;
-    color:white;
+    color:white;   
 }
 
 .left-image {
@@ -44,12 +47,11 @@ body {
 .logoOverlay {
     position: absolute;
     display: flex;
+    justify-content: center;
     flex-grow: 1;
     top: 45vh;
-    left: 15%;
     background: black;
     opacity: 0.7;
-    color: white;
     text-align: center;
-    width: fit-content;
+    width: 45%;
 }
