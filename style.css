@@ -60,6 +60,7 @@ h1.logoText {
     font-size:6vw;
     font-family: RomanAntique;
     font-weight: 100;
+    padding-bottom: 4vh;
 
 }
 
@@ -86,10 +87,10 @@ h1.logoText {
 
 .signup-form-a {
     display: flex;
+    flex-direction: column;
     background-color: #F6F7F8;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
-    
     width: 80%;
     padding: 50px;
     margin: 0 0 40px 0;
@@ -97,5 +98,48 @@ h1.logoText {
 
   .form-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .name-row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .name-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .email-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-row input[type='text'] {
+    width: auto; 
+    height: initial;
+  }
+
+  .form-row input[type='email'] {
+    width: auto; 
+    height: initial;
+  }
+
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
   }

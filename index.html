@@ -11,7 +11,7 @@
     
 <div class="main">
     <div class="left-container">
-            <img class="left-image" src="./pictures/andrei-r-popescu-G_oAchBkVFo-unsplash-medium.jpg" alt="">
+            <img class="left-image" src="./pictures/andrei-r-popescu-G_oAchBkVFo-unsplash-medium.jpg" alt="A picture of shrubs with dark background">
         <div class="logoOverlay">
             <img class="logoImage" src="./pictures/gear.png" alt="Company Logo">
             <h1 class="logoText">WebGear</h1>
@@ -27,11 +27,37 @@
         </div>
         <form action='' method='get' class="signup-form-a">
             <div class='form-row'>
+        <fieldset>
+            <div class="name-row">
+                <div class="name-box">
                 <label for='first-name'>FIRST NAME</label>
                 <input id='first-name' name='first-name' type='text'/>
+                </div>
+                <div class="name-box">
                 <label for='last-name'>LAST NAME</label>
                 <input id='last-name' name='last-name' type='text'/>
-              </div>
+                </div>
+            </div>
+        </fieldset>
+            </div>
+
+            <div class='form-row'>
+        <fieldset>
+            <div class="email-row">
+                <div class="email-box">
+                <label for='email'>Email</label>
+                <input id='email'
+                       name='email'
+                       type='email'
+                       placeholder='joe@example.com'/>
+                </div>
+            <div class="email-box">
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number">
+            </div>
+        </div>
+        </fieldset>
+            </div>
 
         </form>
     </div>
