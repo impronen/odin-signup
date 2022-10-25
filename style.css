@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Onomber;
-    src: url(./fonts/Onomber.otf);
+    font-family: my-cool-font;
+    src: url(./fonts/Roman_New_Times.otf);
 }
 
 body {
@@ -57,8 +57,8 @@ body {
 }
 
 h1.logoText {
-    font-size:5vw;
-    font-family: Onomber, sans-serif;
+    font-size:6vw;
+    font-family: my-cool-font, sans-serif;
 }
 
 .logoImage {
