@@ -17,8 +17,6 @@ fieldset {
     border: 0;
 }
 
-
-
 .main {
     display: flex;
     flex-direction: row;
@@ -47,7 +45,7 @@ fieldset {
     flex-grow: 1;
     top: 25vh;
     background: black;
-    opacity: 0.7;
+    opacity: 0.6;
     text-align: center;
     width: 45%;
 }
