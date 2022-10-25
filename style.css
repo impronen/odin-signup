@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: my-cool-font;
-    src: url(./fonts/Roman_New_Times.otf);
+    font-family: RomanAntique;
+    src: url(./fonts/RomanAntique.ttf);
 }
 
 body {
@@ -58,7 +58,9 @@ body {
 
 h1.logoText {
     font-size:6vw;
-    font-family: my-cool-font, sans-serif;
+    font-family: RomanAntique;
+    font-weight: 100;
+
 }
 
 .logoImage {
