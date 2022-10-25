@@ -3,6 +3,11 @@
 /* border: 1px dotted red; */
 }
 
+@font-face {
+    font-family: Onomber;
+    src: url(./fonts/Onomber.otf);
+}
+
 body {
     height: 100vh;
     margin: 0%;
@@ -28,6 +33,19 @@ body {
     padding: 1rem 3rem 0.5rem;
 }
 
+.logoOverlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    top: 25vh;
+    background: black;
+    opacity: 0.7;
+    text-align: center;
+    width: 45%;
+}
+
 .logoText {
     display: flex;
     padding-top: 1rem;
@@ -35,12 +53,18 @@ body {
     font-weight: bold;
     opacity: 1;
     color:white;   
+    font-size: 2rem;
+}
+
+h1.logoText {
+    font-size:5vw;
+    font-family: Onomber, sans-serif;
 }
 
 .logoImage {
     display: flex;
-    width: 5rem;
-    height: 5rem;
+    width: 13vw;
+    height: 13vw;
     z-index: 9;
     filter: invert(100%);
     margin-right: 1rem;
@@ -53,17 +77,9 @@ body {
     object-fit: cover;
 }
 
-.logoOverlay {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    top: 45vh;
-    background: black;
-    opacity: 0.7;
-    text-align: center;
-    width: 45%;
+.textContainer {
+    padding-top: 13vh;
+    padding-bottom: 5vh;
 }
 
 .signup-form-a {
