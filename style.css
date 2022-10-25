@@ -127,6 +127,17 @@ h1.logoText {
     flex-direction: column;
   }
 
+  .password-row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .password-box {
+    display: flex;
+    flex-direction: column;
+  }
+
   .form-row input[type='text'] {
     width: auto; 
     height: initial;
