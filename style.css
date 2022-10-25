@@ -11,6 +11,7 @@
 body {
     height: 100vh;
     margin: 0%;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 fieldset {
@@ -34,7 +35,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     width: 55%;
-
+    background-color: #D4DFD7ff;
 }
 
 .logoOverlay {
@@ -89,20 +90,29 @@ h1.logoText {
 }
 
 .textContainer {
+    background-color: #D4DFD7ff;
     padding-top: 13vh;
     padding-bottom: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
 }
 
+p.textContainer {
+
+}
+
 .signup-form-a {
     display: flex;
     flex-direction: column;
-    background-color: #F6F7F8;
-    border-radius: 3px;
+    background-color: #747C73ff;
     width: 100%;
     padding-top: 50px;
+    font-size: smaller;
   }
+
+.form-inputs {
+  padding: 10%;
+}
 
   .form-row {
     display: flex;
@@ -111,6 +121,7 @@ h1.logoText {
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .name-row {
@@ -118,11 +129,13 @@ h1.logoText {
     flex-direction: row;
     
     
+    
   }
 
   .name-box {
     display: flex;
     flex-direction: column;
+    
   }
 
   .email-row {
@@ -163,3 +176,13 @@ h1.logoText {
     margin-top: 7px;
     padding-right: 20px;
   }
+
+/* colour palette 
+--mint-cream: #DCE6E0ff;
+--ash-gray: #CDD4C7ff;
+--olive-drab-7: #39311Eff;
+--nickel: #747C73ff;
+--field-drab: #564A27ff;
+--field-drab: #68583Cff;
+--field-drab-2: #604E2Fff;
+*/
