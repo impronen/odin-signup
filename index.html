@@ -25,7 +25,7 @@
 
     <div class="textContainer">
         <p>This is not a real online service! You know you want something like this in your life to help you realize your deepest dreams. Sign up now to get started!</p>
-        <p>You know you want to.</p>
+        <p>You <span class="emphasis">know</span> you want to.</p>
     </div>
     <!-- FORM ELEMENTS -->
     <form action='' method='post' class="signup-form-a">
@@ -33,11 +33,11 @@
         <div class='form-row'>
         <fieldset> <!-- Fieldset / row for name (first / last) -->
             <div class="name-row">
-                <div class="name-box">
+                <div class="input-box">
                 <label for='first-name'>FIRST NAME</label>
                 <input id='first-name' name='first-name' type='text'/>
                 </div>
-                <div class="name-box">
+                <div class="input-box">
                 <label for='last-name'>LAST NAME</label>
                 <input id='last-name' name='last-name' type='text'/>
                 </div>
@@ -48,37 +48,38 @@
         <div class='form-row'>
         <fieldset> <!-- Fieldset / row for email / phone # -->
             <div class="email-row">
-                <div class="email-box">
+                <div class="input-box">
                 <label for='email'>Email</label>
                 <input id='email'
                        name='email'
                        type='email'
                        placeholder='joe@example.com'/>
                 </div>
-            <div class="email-box">
-            <label for="phone_number">Phone Number:</label>
+            <div class="input-box">
+            <label for="phone_number">Phone Number</label>
             <input type="tel" id="phone_number" name="phone_number">
             </div>
         </fieldset>
-
+    </div>
         <div class='form-row'>
         <fieldset> <!-- Fieldset / row for password -->
             <div class="password-row">
-        <div class="password-box">
+        <div class="input-box">
             <label for="user_password">Password</label>
             <input type="password" id="user_password" name="password" placeholder="Choose a secure password">
 
         </div>
-        <div class="password-box">
+        <div class="input-box">
             <label for="user_password">Confirm password</label>
             <input type="password" id="user_password" name="password" placeholder="Repeat password">
             </div>
         </div>
         </fieldset>
-        </div>
+        </div>  
     </div>
     </form>
-
+    <button type="submit" form="signup-form-a" class="create-account">Create account</button>
+    <p>Already have an account? <a href="">Log in.</a></p>
     </div>
 </div>
 
