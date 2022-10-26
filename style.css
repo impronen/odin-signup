@@ -32,6 +32,7 @@ body {
 .left-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 40%;
     height: 100vh;
 
@@ -48,6 +49,23 @@ body {
     opacity: 0.6;
     text-align: center;
     width: 40%;
+}
+
+.image-credit {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:none;
+  bottom: 1vh;
+  width: 40%;
+  font-weight: light;
+  font-size: small;
+  color: #FFFFFF;
+}
+
+#nostyle {
+ color: #FFFFFF;
 }
 
 .logoText {
@@ -101,10 +119,9 @@ h1.logoText {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
   height: 20%;
   width: 70%;
-  margin: 10% 10% 0 10%;
+  margin: 20% 10% 0 15%;
   font-weight: bold;
 /*     padding-top: 13vh;
     padding-bottom: 5vh;
@@ -121,7 +138,8 @@ p.textContainer {
     flex-direction: column;
     background-color: #CDD4C7ff; 
     width: 100%;
-    padding-top: 50px;
+    padding-top: 2%;
+    padding-bottom: 7%;
     font-size: smaller;
     box-shadow: 0 5px 4px 0 #747C73ff;
   }
@@ -129,35 +147,42 @@ p.textContainer {
 
 fieldset {
   display: flex;
-  justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
   border: 0;
   width: 70%;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
 }
 
-
+p.form-inputs {
+  margin-left: 15%;
+} 
 
 .form-inputs {
-
+ width: 70%;
+ margin-left: 15%;
 }
 
 .form-row {
     display: flex;
     flex-direction: column;
-    flex-basis: auto;
-    align-items: baseline;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
 }
 
 .name-row {
     display: flex;
-    align-items: flex-start;
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
-    margin: 3%;
+    margin-right: 15%;
+
 }
 
 .email-row {
@@ -166,27 +191,60 @@ fieldset {
     
 }
 
+.form-row input {
+  background-color: #DCE6E0ff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+.form-row input:focus {
+  background-color: rgb(223, 230, 218);
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px 1px;
+}
+
+.form-row input[type='email']:invalid {
+  box-shadow: 0 0 5px 1px #a80608;
+}
+
+
 .password-row {
     display: flex;
     flex-direction: row;
     
 }
 
-.form-row input[type='text'] {
-  /*   width: auto;  */
-    height: initial;
-}
-
-.form-row input[type='email'] {
-   /*  width: auto;  */
-    height: initial;
-}
 
 .form-row label {
-/*     text-align: right; */
-    width: 120px;
-    margin-top: 7px;
-    padding-right: 20px;
+  
+}
+
+.create-account {
+  margin: 40px 0px 0 15%;
+}
+
+.create-account button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #39311Eff;
+
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+
+  transition-duration: 0.3s;
+}
+
+.create-account button:hover {
+  background-color: #604E2Fff;
 }
 
 /* colour palette 
