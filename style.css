@@ -215,8 +215,16 @@ p.form-inputs {
   box-shadow: 0 0 5px 1px #a80608;
 }
 
+.form-row input[type='tel']:focus:valid{
+  box-shadow: 0 0 5px 1px #056d0e;
+}
+
 .form-row input[type='password']:invalid {
   box-shadow: 0 0 5px 1px #a80608;
+}
+
+.form-row input[type='password']:focus:valid{
+  box-shadow: 0 0 5px 1px #056d0e;
 }
 
 .password-row {
