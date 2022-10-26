@@ -62,7 +62,7 @@
                 </div>
             <div class="input-box">
             <label for="phone_number">Phone Number</label>
-            <input type="tel" id="phone_number" name="phone_number">
+            <input type="tel" id="phone_number" name="phone_number" pattern="\(\d{3}\)\040\d{3}-\d{4}" minlength="8">
             </div>
         </fieldset>
     </div>
@@ -71,12 +71,12 @@
             <div class="password-row">
         <div class="input-box">
             <label for="user_password">Password</label>
-            <input type="password" id="user_password" name="password" placeholder="Choose a secure password">
+            <input type="password" id="user_password" name="password" placeholder="Choose a secure password" minlength="8">
 
         </div>
         <div class="input-box">
             <label for="user_password">Confirm password</label>
-            <input type="password" id="user_password" name="password" placeholder="Repeat password">
+            <input type="password" id="user_password" name="password" placeholder="Repeat password" minlength="8">
             </div>
         </div>
         </fieldset>
@@ -84,8 +84,8 @@
     </div>
     </form>
 <div class="create-account">
-    <button type="submit" form="signup-form-a" >Create account</button>
-    <p>Already have an account? <a href="">Log in.</a></p>
+    <button type="submit" form="signup-form-a">Create account</button>
+    <p>Already have an account? <a id="logIn" href="">Log in</a></p>
 </div>
     </div>
 </div>
