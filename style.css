@@ -211,6 +211,10 @@ p.form-inputs {
   box-shadow: 0 0 5px 1px #a80608;
 }
 
+.form-row input[type='email']:focus:valid{
+  box-shadow: 0 0 5px 1px #056d0e;
+}
+
 .form-row input[type='tel']:invalid {
   box-shadow: 0 0 5px 1px #a80608;
 }
