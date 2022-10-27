@@ -231,6 +231,14 @@ p.form-inputs {
   box-shadow: 0 0 5px 1px #056d0e;
 }
 
+.invalidPassword {
+  box-shadow: 0 0 5px 1px #a80608;
+}
+
+.validPassword {
+  box-shadow: 0 0 5px 1px #056d0e;
+}
+
 .password-row {
     display: flex;
     flex-direction: row;  
